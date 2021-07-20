@@ -1,0 +1,148 @@
+img {
+    width: 80%;
+    padding: 60px;
+}
+.left{
+    margin-top: 12rem;
+    float: left;
+
+    width: 30rem;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .right{
+   
+} */
+.hidden {
+    opacity: 0;
+    display: none;
+}
+.search-container {
+    display: flex;
+    margin: 10px;
+    width: 80%;
+   /* background-color: aqua; */
+}
+
+input:focus {
+    border: 1px solid #f78606;
+    box-shadow: none!important;
+}
+.btn-search {
+    border: none;
+    padding-bottom: 10px 25px;
+    border-radius: 0 5px 5px 0;
+    background-color: #f7b604;
+    color: #fff;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.no-border {
+    border: none !important;
+}
+.flex-center {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+    padding: 30px 15px;
+    background-color: #dad4c9;
+    color: #022d30;
+}
+
+.pokemon-card {
+ 
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+
+  
+}
+
+.cp-text span {
+    font-size: 16px;
+}
+
+.img-container {
+    position: relative;
+    z-index: 2;
+    margin-top: -5rem;
+
+    /* border-radius: 50%; */
+    text-align: center;
+}
+
+
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 10px;
+    background-color: rgb(141, 230, 233);
+    width: 30rem;
+    margin-top: -170px;
+    margin-left: -12rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.seperator {
+    border-color: #f0a056 !important;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.btn-transfer {
+    margin: 45px 0;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #e0e40d, #f7de04);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    min-width: 60%;
+}
+.stats span.first {
+    border-right:1px solid rgb(235, 134, 19)
+}
+
+.attributes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+.cp-text {
+    padding-right: 10px;
+    border-right: 1px solid rgb(164, 240, 196);
+    margin: 0;
+}
+.cp-text:last-child {
+    border: none;
+}
+.player-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: center;
+}
+.data-container p {
+    margin-bottom: 0;
+}
+
+#update_name, #update_candy_title{
+    text-transform: capitalize;
+}
